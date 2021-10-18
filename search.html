@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: #B3E5FC;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            margin: auto;
+            margin-top: 80px;
+        }
+
+        input {
+            height: 50px;
+            background-color: white;
+        }
+
+        #btn {
+            height: 40px;
+            background-color: white;
+        }
+
+        #news {
+            padding-top: 50px;
+            margin: auto;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="">
+        <input type="text" id="name">
+        <button id="btn" onclick="search(event)">Search</button>
+    </form>
+
+    <div id="news"></div>
+
+</body>
+
+</html>
+
+<script src="search.js"></script>
